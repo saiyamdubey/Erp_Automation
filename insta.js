@@ -1,28 +1,29 @@
-// const puppeteer = require('puppeteer');
+ const puppeteer = require('puppeteer');
 
-// (async () => {
-//   const browser = await puppeteer.launch();
-//   const page = await browser.newPage();
 
-//   // Enable the network domain to capture network requests
-//   await page.goto('https://www.instagram.com/p/CtBG7E9yH9H');
-//   await page.setRequestInterception(true);
+(async () => {
+   const browser = await puppeteer.launch();
+   const page = await browser.newPage();
 
-//   page.on('request', (request) => {
-//     // Capture only image requests
-//     if (request.resourceType() === 'image') {
-//       console.log('Image Request URL:', request.url());
-//       console.log('Image Request Headers:', request.headers());
-//     }
+   // Enable the network domain to capture network requests
+   await page.goto('https://www.instagram.com/p/CtBG7E9yH9H');
+   await page.setRequestInterception(true);
 
-//     request.continue();
-//   });
+   page.on('request', (request) => {
+     // Capture only image requests
+     if (request.resourceType() === 'image') {
+       console.log('Image Request URL:', request.url());
+       console.log('Image Request Headers:', request.headers());
+     }
 
-//   // Wait for a few seconds to capture network requests
-//   await page.waitForTimeout(5000);
+     request.continue();
+   });
 
-//   await browser.close();
-// })();
+   // Wait for a few seconds to capture network requests
+   await page.waitForTimeout(5000);
+
+   await browser.close();
+ })();
 
 const puppeteer = require("puppeteer");
 
