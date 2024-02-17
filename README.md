@@ -1,4 +1,4 @@
-# ERP Automation
+# ERP Automation 🚀👁️
 
 ## Overview
 
