@@ -15,7 +15,7 @@ ERP Automation is a project aimed at automating various tasks within an Enterpri
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your_username/erp_automation.git
+   git clone https://github.com/saiyamdubey/Erp_Automation.git
    ```
 
 2. **Install Dependencies:**
