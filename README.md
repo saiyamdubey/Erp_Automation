@@ -2,7 +2,7 @@
 
 ## Overview
 
- ERP Automation is a project aimed at automating various tasks within an Enterprise Resource Planning (ERP) system. It leverages [mention specific technologies, frameworks, or tools used] to streamline and optimize processes such as data entry, report generation, and communication within the ERP system.
+ERP Automation is a project aimed at automating various tasks within an Enterprise Resource Planning (ERP) system. It leverages [mention specific technologies, frameworks, or tools used] to streamline and optimize processes such as data entry, report generation, and communication within the ERP system.
 
 ## Features
 
