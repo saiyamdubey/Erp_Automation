@@ -2,13 +2,14 @@ const puppeteer = require("puppeteer");
 const nodemailer = require("nodemailer");
 
 const timehai = Date.now();
-const nameuser = "<== USERNAME BATA ERP KA ==>";
-const pass = "<== PASSWORD BATA ERP KA ==>";
+const nameuser = "22015001973";
+const pass = "Krishna@8787";
 
 const screenshottimetable = async () => {
   const browser = await puppeteer
+  
     .launch({
-      headless: false,
+      // headless: false,
       defaultViewport: null,
       args: ["--start-maximized"],
     })
@@ -61,8 +62,8 @@ const sendmail = async function sendMail() {
   });
   const mailOptions = {
     from: "saiyamdubey8787@gmail.com",
-    to: ["saiyamdubey5@gmail.com"],
-    subject: "💖",
+    to: ["saiyamdubey5@gmail.com","withatifansari@gmail.com","divyanshbajpai27@gmail.com"],
+    subject: "😘😘💖😘😘😘",
     text: "Hello, Looking Nice ...",
     attachments: [
       {

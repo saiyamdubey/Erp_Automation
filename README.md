@@ -1,4 +1,4 @@
-# ERP Automation 🚀👁️
+# ERP Automation
 
 ## Overview
 
@@ -15,7 +15,7 @@ ERP Automation is a project aimed at automating various tasks within an Enterpri
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/saiyamdubey/Erp_Automation.git
+   git clone https://github.com/your_username/erp_automation.git
    ```
 
 2. **Install Dependencies:**
@@ -61,3 +61,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For any inquiries or support, please contact [saiyamdubey8787@gmail.com](mailto:saiyamdubey8787@gmail.com).
+
+
+
+
+
