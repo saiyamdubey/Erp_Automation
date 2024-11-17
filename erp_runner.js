@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 const nodemailer = require("nodemailer");
 
 const timehai = Date.now();
-const nameuser = "22015001973";
-const pass = "Krishna@8787";
+const nameuser = "xxxxxxxxx";
+const pass = "@@@@@@@@@";
 
 
 const screenshottimetable = async () => {
