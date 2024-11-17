@@ -8,7 +8,6 @@ const pass = "@@@@@@@@@";
 
 const screenshottimetable = async () => {
   const browser = await puppeteer
-  
     .launch({
       // headless: false,
       defaultViewport: null,
